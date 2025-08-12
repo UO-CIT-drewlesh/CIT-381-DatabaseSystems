@@ -1,0 +1,11 @@
+Webpages-PagesContents Relationship
+- A Webpage can have many contents
+- PageContents must have a webpage
+
+Pathways-AlumniMembers Relationship
+- One pathway is assigned to many members
+- Many members are assigned to a pathway
+
+MemberRegister-AlumniMembers Relationship
+-One registration event is assigned to a member
+-One member is assigned to a registration
