@@ -1,0 +1,55 @@
+Project 3 Description
+
+	Relationship Label Rqments:
+1. All relationships have descriptive label desvrbing the relationship
+2. Generally shouldn't be a sentence, also shouldn't be a single word
+
+	Relationship Types:
+1. Consider if relationship should be identifying/non-identifying
+2. Consider if and when foreign key is needed or optional
+
+	Meaningful Property
+1. All non-bridge (M:N) tables must have at least ONE non-null, meaningful property.
+
+
+
+	Creating an EER diagram 1
+
+Create schema: UOID_p3
+Model Filename: store.mwb
+Image Filename: export png of model as store.png
+
+Rules:
+
+1 The store has employees (ID, last, first, hire date, release date, manager)
+2 All employees must work at a store
+3 An employee may have a manager
+4 An employee can be assigned to more than one store
+5 A store can have more than one employee
+6 All stores belong to a region
+7 A store can be in only one region
+8 Remember to add relationship labels to All relationships
+
+
+
+	Creating an EER diagram 2
+Schema name: UOID_p3
+Model Filename: auction.mwb
+Image Filename: auction.png
+
+Rules: 
+1 Auction web site has items for sale
+2 Each item for sale is provided by a seller
+3 Each item has a opening price,
+		  reserve price,
+		  description,
+		  ending time.
+4 Customers can submit bids
+5 If bid = highest, before ending time, that is the winning bid, item is sold to that bidder
+6 This should be keeping track of the auction companies customers and sellers and their bids and sales
+(Suggested entities: customers, sellers, items, bids)
+
+
+
+
+
