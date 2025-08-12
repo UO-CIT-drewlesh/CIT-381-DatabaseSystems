@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Color Web App</title>
+    <link rel="stylesheet" type="text/css" href="color.css" />
+  </head>
+
+  <body>
+    <h2 id="title">Color Web App</h2>
+    <div id="outputDiv" class="container">
+      <div class="header">
+        <div class="col1H">ID</div>
+        <div class="col2H">Color</div>
+        <div class="col3H">Hex</div>
+        <div class="col4H">Action</div>
+      </div>
+    </div>
+    <p>
+      <button id="showAddColorPanelButton">Add Color</button>
+    </p>
+    <div id="addPanel">
+      <div class="panelTitle">Add Panel</div>
+      <div class="divCol1 idAdd">ID:</div>
+      <div class="divCol2 idAdd">
+        <input type="text" class="idAdd" id="idAdd" />
+      </div>
+      <br />
+      <div class="divCol1">Color:</div>
+      <div class="divCol2"><input type="text" id="colorAdd" /></div>
+      <br />
+      <div class="divCol1">Hex:</div>
+      <div class="divCol2"><input type="text" id="hexAdd" /></div>
+      <p>
+        <button id="addColorButton">Save</button>
+        <button id="addColorCancelButton">Cancel</button>
+      </p>
+    </div>
+    <div id="editPanel">
+      <div class="panelTitle">Edit Panel</div>
+      <div class="divCol1">ID:</div>
+      <div class="divCol2">
+        <span id="idEdit"></span>
+      </div>
+      <br />
+      <div class="divCol1">Color:</div>
+      <div class="divCol2"><input type="text" id="colorEdit" /></div>
+      <br />
+      <div class="divCol1">Hex:</div>
+      <div class="divCol2"><input type="text" id="hexEdit" /></div>
+      <p>
+        <button id="editColorButton">Save</button>
+        <button id="editColorCancelButton">Cancel</button>
+      </p>
+    </div>
+    <script src="color.js"></script>
+  </body>
+</html>
