@@ -46,7 +46,7 @@ const DO_STATUS = true;
 // #region **** Web Page
 // Handle "/" GET route
 fastify.get("/", (request, reply) => {
-  fs.readFile(`${__dirname}/color.html`, (err, data) => {
+  fs.readFile(`${__dirname}/index.html`, (err, data) => {
     if (err) {
       reply
         .code(500)
@@ -432,4 +432,5 @@ connection.connect(function (err) {
     });
   }
 });
+
 // #endregions
