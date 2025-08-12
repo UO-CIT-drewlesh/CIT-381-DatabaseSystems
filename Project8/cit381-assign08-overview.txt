@@ -1,0 +1,21 @@
+I want to make a database that has the history of my courses at the University.
+The database support information about these courses as well as the instructors that taught them. This information can include:
+
+-Course Name
+-Course Year and Term
+-Course Level
+
+-Instructor Name
+-Instructor email
+-Instructor department
+
+With information about the course documented, I'd also like to include any topics that I found the most intriguing from the class. I think that it would be nice to have data of all my classes with descriptions of my favorite topics and things I took away from each class the most. Also this is a project I can continually work for a while because is a lot of information from any given topic in a class. Information to include about topics:
+
+-Topic name
+-Topic description
+
+Use Cases:
+I could create a journalistic website for myself
+I can use this to review classes that I took during college
+
+
